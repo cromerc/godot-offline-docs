@@ -1,0 +1,8 @@
+github.com/diamondburned/gotk4/pkg v0.0.0-20220725071938-a40a809cc7a4 h1:+5i5G0rVOMIufreJCByFnhiL6sUkRZiWmNlX4LEqWvA=
+github.com/diamondburned/gotk4/pkg v0.0.0-20220725071938-a40a809cc7a4/go.mod h1:pjOFSZWuNWiBwEqt+4/zfPr1JsNWY43h4B81ht3S3Ag=
+github.com/vearutop/statigz v1.1.8 h1:IJgQHx6EomuYOYd2TzFt3haP+BIzV471zn7aepRiLHA=
+github.com/vearutop/statigz v1.1.8/go.mod h1:pfzrpvgLRnFeSVZd9iUYrpYDLqbV+RgeCfizr3ZFf44=
+go4.org/unsafe/assume-no-moving-gc v0.0.0-20220617031537-928513b29760 h1:FyBZqvoA/jbNzuAWLQE2kG820zMAkcilx6BMjGbL/E4=
+go4.org/unsafe/assume-no-moving-gc v0.0.0-20220617031537-928513b29760/go.mod h1:FftLjUGFEDu5k8lt0ddY+HcrH/qU/0qk+H8j9/nTl3E=
+golang.org/x/sync v0.0.0-20220819030929-7fc1605a5dde h1:ejfdSekXMDxDLbRrJMwUk6KnSLZ2McaUCVcIKM+N6jc=
+golang.org/x/sync v0.0.0-20220819030929-7fc1605a5dde/go.mod h1:RxMgew5VJxzue5/jJTE5uejpjVlOe/izrB70Jof72aM=
