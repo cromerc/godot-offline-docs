@@ -6,7 +6,7 @@ The Godot offline docs are an all-in-one binary that when run makes the document
 
 ### Compile
 - Golang 1.18
-- A copy of the html godot documentation en .zip format.
+- A copy of the html godot documentation en .zip format. I have a github fork repo setup that generates the docs for various versions once a week: [https://github.com/cromerc/godot-docs/actions](https://github.com/cromerc/godot-docs/actions)
 - upx
 - GTK3
 
@@ -17,3 +17,13 @@ The Godot offline docs are an all-in-one binary that when run makes the document
 Linux binaries are available to download on the release page containing the offline documentation.
 
 Right now I don't have working windows binaries of this, but if anyone wants to help get it working and maybe even automated, please open a pull request.
+
+### Versions
+Currently we have the following offline documentation for Godot versions:
+- 2.1
+- 3.0
+- 3.1
+- 3.2
+- 3.3
+- 3.4
+- 3.5
