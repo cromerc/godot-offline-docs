@@ -111,7 +111,7 @@ func loadPNG(data []byte) (*gdkpixbuf.Pixbuf, error) {
 }
 
 func getOpenPort(host string, port string) string {
-	listener, err := net.Listen("tcp", host + ":" + port)
+	listener, err := net.Listen("tcp", host+":"+port)
 	if err == nil {
 		listener.Close()
 	}
@@ -119,7 +119,7 @@ func getOpenPort(host string, port string) string {
 		newPort, _ := strconv.Atoi(port)
 		newPort++
 		port = strconv.Itoa(newPort)
-		listener, err := net.Listen("tcp", host + ":" + port)
+		listener, err := net.Listen("tcp", host+":"+port)
 		if err == nil {
 			listener.Close()
 			break
@@ -130,9 +130,9 @@ func getOpenPort(host string, port string) string {
 
 func httpServer(host string, port string) {
 	contentStatic, _ := fs.Sub(static, "godot-docs-html")
-    http.Handle("/", statigz.FileServer(contentStatic.(fs.ReadDirFS)))
+	http.Handle("/", statigz.FileServer(contentStatic.(fs.ReadDirFS)))
 	println("Serving on port: " + port)
-    log.Fatal(http.ListenAndServe(host + ":" + port, nil))
+	log.Fatal(http.ListenAndServe(host+":"+port, nil))
 }
 
 func openBrowser(url string) {
